@@ -713,4 +713,6 @@ int dsi_display_cont_splash_config(void *display);
 int dsi_display_get_panel_vfp(void *display,
 	int h_active, int v_active);
 
+char *dsi_display_get_cmdline_panel_info(void);
+
 #endif /* _DSI_DISPLAY_H_ */
